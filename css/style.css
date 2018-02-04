@@ -120,3 +120,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
 transition: all .5s;
 color: #fff;
 }
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color:#fff;
+}
+::-moz-placeholder { /* Firefox */
+color: #fff;
+}
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+}
